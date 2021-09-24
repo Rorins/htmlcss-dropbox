@@ -30,5 +30,10 @@
 }
 .hero-container {
   background-color: red;
-  width: 20%;
+}
+.hero-text {
+  background-color: chartreuse;
+}
+.hero-image {
+  background-color: cornsilk;
 }
