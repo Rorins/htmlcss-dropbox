@@ -1,13 +1,16 @@
-/*Utilities*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/*Utilities*/
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+.margin {
+  margin: 0 20%;
 }
 
 /*Header*/
@@ -31,10 +34,7 @@
 .hero-container {
   background-color: red;
   width: 20%;
-  margin: 0 20%;
 }
-.hero-img {
-  background-color: blue;
+.hero-image {
   float: right;
-  margin: 0 20%;
 }
