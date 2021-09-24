@@ -25,9 +25,16 @@
 }
 
 /*Hero*/
-
+.hero {
+  background-color: rgb(202, 202, 228);
+}
 .hero-container {
   background-color: red;
   width: 20%;
-  margin: 0 auto;
+  margin: 0 20%;
+}
+.hero-img {
+  background-color: blue;
+  float: right;
+  margin: 0 20%;
 }
