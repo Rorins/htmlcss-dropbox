@@ -1,0 +1,33 @@
+/*Utilities*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Header*/
+.logo-bar,
+.nav-bar {
+  background-color: red;
+}
+
+.logo-bar {
+  float: left;
+}
+
+.nav-bar {
+  float: right;
+}
+
+/*Hero*/
+
+.hero-container {
+  background-color: red;
+  width: 20%;
+  margin: 0 auto;
+}
