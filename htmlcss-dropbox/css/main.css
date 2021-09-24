@@ -12,19 +12,16 @@
 .margin {
   margin: 0 20%;
 }
-
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
 /*Header*/
 .logo-bar,
 .nav-bar {
   background-color: red;
-}
-
-.logo-bar {
-  float: left;
-}
-
-.nav-bar {
-  float: right;
 }
 
 /*Hero*/
@@ -34,7 +31,4 @@
 .hero-container {
   background-color: red;
   width: 20%;
-}
-.hero-image {
-  float: right;
 }
