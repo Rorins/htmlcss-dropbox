@@ -9,43 +9,64 @@
   display: table;
   clear: both;
 }
-/*Utilities Margin*/
 .margin {
   margin: 0 auto;
 }
-/*Utilities Padding*/
 .padding {
   padding: 2%;
 }
-
-/*Utilities Float*/
+.paddingleft {
+  padding-left: 2%;
+}
 .fleft {
   float: left;
 }
 .fright {
   float: right;
 }
+.square-button {
+  padding: 2% 3%;
+  background-color: #0061ff;
+  color: white;
+}
 /*Header*/
 .logo-bar,
 .nav-bar {
   background-color: red;
+  border: 1px solid black;
+}
+
+.logobar-leftnav li,
+.navbar-rightnav li {
+  display: inline-block;
 }
 
 /*Hero*/
 .hero {
-  background-color: rgb(202, 202, 228);
+  background-color: #b4d0e7;
   border: 1px solid black;
 }
 .hero-container {
-  background-color: red;
+  background-color: #b4d0e7;
   width: 90%;
   border: 1px solid black;
 }
 .hero-text {
-  background-color: chartreuse;
+  background-color: #b4d0e7;
   border: 1px solid black;
+  width: 30%;
 }
 .hero-image {
-  background-color: cornsilk;
+  background-color: #b4d0e7;
   border: 1px solid black;
+  width: 70%;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(0, 20%);
+}
+h1 {
+  font-size: xx-large;
 }
