@@ -9,9 +9,16 @@
   display: table;
   clear: both;
 }
+/*Utilities Margin*/
 .margin {
-  margin: 0 20%;
+  margin: 0 auto;
 }
+/*Utilities Padding*/
+.padding {
+  padding: 2%;
+}
+
+/*Utilities Float*/
 .fleft {
   float: left;
 }
@@ -27,13 +34,18 @@
 /*Hero*/
 .hero {
   background-color: rgb(202, 202, 228);
+  border: 1px solid black;
 }
 .hero-container {
   background-color: red;
+  width: 90%;
+  border: 1px solid black;
 }
 .hero-text {
   background-color: chartreuse;
+  border: 1px solid black;
 }
 .hero-image {
   background-color: cornsilk;
+  border: 1px solid black;
 }
