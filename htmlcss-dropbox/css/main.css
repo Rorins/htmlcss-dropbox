@@ -44,9 +44,9 @@
   width: 70%;
 }
 
-h2 {
+/*h2 {
   padding: 2%;
-}
+}*/
 
 /*Header*/
 
@@ -172,7 +172,6 @@ h5 {
 /*Second section */
 .box3 {
   width: 50%;
-  border: 1px solid black;
 }
 .box3 img {
   width: 100%;
@@ -183,24 +182,31 @@ h5 {
   padding: 2%;
 }
 .box4 {
+  padding: 2% 5%;
   width: 50%;
-  border: 1px solid black;
+}
+
+.partner-button {
+  background-color: white;
+  padding: 8px 20px;
 }
 
 /*third section*/
-.third-container {
-  border: 1px solid black;
-}
 
 .third-container div {
   width: 30%;
-  border: 1px solid black;
   margin-bottom: 2%;
 }
 
 .third-section img {
   width: 100%;
   height: 100%;
+}
+
+.third-container h3,
+.third-container p,
+.third-container h2 {
+  padding: 2%;
 }
 
 .boxy2,
