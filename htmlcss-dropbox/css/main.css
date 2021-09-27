@@ -226,10 +226,23 @@ h2 {
 .sixth-section {
   border: 1px solid black;
 }
-.questions {
+.questions-container {
   border: 1px solid black;
 }
-.questions li {
+.questions-container li {
   list-style-type: none;
   padding: 2%;
+}
+
+/*Footer*/
+.footer-container {
+  border: 1px solid black;
+}
+.rectangle {
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.rectangle li {
+  list-style-type: none;
 }
