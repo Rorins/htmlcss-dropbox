@@ -44,6 +44,10 @@
   width: 70%;
 }
 
+h2 {
+  padding: 2%;
+}
+
 /*Header*/
 
 header li,
@@ -60,6 +64,10 @@ header a {
 
 header img {
   vertical-align: middle;
+}
+
+header li:hover {
+  border-bottom: 1px solid green;
 }
 
 /*Hero*/
@@ -92,44 +100,57 @@ h1 {
 }
 
 /*First section*/
+
 .first {
-  background-color: white;
   padding-top: 10%;
 }
+
 .first-container {
   border: 1px solid black;
 }
 
+.checkboxes {
+  border-radius: 50%;
+  padding: 2%;
+}
 .column-container {
   border: 1px solid black;
-  padding-top: 2%;
 }
 
-h2 {
-  padding-bottom: 2%;
+.first-container h2 {
+  padding: 2%;
+  font-size: 40px;
 }
 
+.column-container h3 {
+  font-size: 30px;
+}
+
+h5 {
+  color: gray;
+}
 .col1,
 .col2,
 .col3 {
   width: 30%;
   border: 1px solid black;
-  text-align: center;
-  padding: 3%;
 }
 .col2 {
   margin-left: 5%;
 }
 
-.col1 li,
-.col2 li,
-.col3 li {
-  padding: 2%;
+.col1 *,
+.col2 *,
+.col3 * {
+  padding: 4%;
+}
+.column-container li {
   list-style-type: none;
 }
 .business-type {
   text-align: center;
   border-bottom: 1px solid black;
+  font-weight: lighter;
 }
 
 /*First bottom container*/
