@@ -32,7 +32,7 @@
 }
 
 .square-button {
-  padding: 5px 20px;
+  padding: 5px 0px;
   background-color: #0061ff;
   color: white;
 }
@@ -105,16 +105,9 @@ h1 {
   padding-top: 10%;
 }
 
-.first-container {
-  border: 1px solid black;
-}
-
 .checkboxes {
   border-radius: 50%;
   padding: 2%;
-}
-.column-container {
-  border: 1px solid black;
 }
 
 .first-container h2 {
@@ -133,7 +126,7 @@ h5 {
 .col2,
 .col3 {
   width: 30%;
-  border: 1px solid black;
+  border: 1px solid rgb(219, 219, 219);
 }
 .col2 {
   margin-left: 5%;
@@ -149,25 +142,30 @@ h5 {
 }
 .business-type {
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(219, 219, 219);
   font-weight: lighter;
 }
 
 /*First bottom container*/
 
-.first-bottom-container {
-  border: black 1px solid;
+.block-big {
+  border: 1px solid rgb(219, 219, 219);
+}
+.block-big * {
+  padding: 2%;
 }
 
-.box1 * {
-  padding-bottom: 2%;
+.box1 h3 {
+  font-size: 30px;
+}
+.box1 h5 {
+  color: black;
+  font-size: 20px;
 }
 .box1 {
-  border: 1px solid black;
   width: 70%;
 }
 .box2 {
-  border-bottom: 1px solid black;
   width: 30%;
 }
 
