@@ -179,10 +179,16 @@ div img {
 .fourth-container {
   border: 1px solid black;
 }
-.logo-container {
+.full-container {
   border: 1px solid black;
 }
 
+.logo-container {
+  border: 1px solid black;
+  height: 400px;
+}
+
+/*Sectios in fourth container*/
 .half1,
 .half3 {
   width: 30%;
@@ -192,4 +198,15 @@ div img {
 .half2 {
   width: 40%;
   border: 1px solid black;
+  height: 100%;
 }
+
+.half1 div,
+.half2 div,
+.half3 div {
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/*Fifth section*/
