@@ -217,14 +217,13 @@ h5 {
 /*Fourth section*/
 .full-container {
   padding-top: 2%;
-  border: 1px solid black;
 }
-.full-container {
-  border: 1px solid black;
+
+.top-fourth-section {
+  padding: 2%;
 }
 
 .logo-container {
-  border: 1px solid black;
   height: 400px;
 }
 
@@ -232,12 +231,10 @@ h5 {
 .half1,
 .half3 {
   width: 30%;
-  border: 1px solid black;
 }
 
 .half2 {
   width: 40%;
-  border: 1px solid black;
   height: 100%;
 }
 
@@ -246,16 +243,49 @@ h5 {
 .half3 div {
   width: 50%;
   height: 200px;
-  border: 1px solid black;
 }
 
-.fourth-section img {
+.logo-container img {
+  transform: scale(0.4);
   width: 100%;
   height: 100%;
   object-fit: scale-down;
+  transform: scale(0.6);
 }
+
+.half1 img,
+.half3 img {
+  filter: invert(2);
+}
+
+.half2 p {
+  padding: 2%;
+}
+
+/*All logo colors*/
 .design {
-  background-color: green;
+  background-color: #a2d39b;
+}
+.arizona {
+  background-color: #61082b;
+}
+.florida {
+  background-color: #0093ce;
+}
+.tops {
+  background-color: #ff1c1c;
+}
+.bicycle {
+  background-color: #d5001f;
+}
+.hearst {
+  background-color: #b4d0e7;
+}
+.lonely {
+  background-color: #0d2481;
+}
+.clear {
+  background-color: #ffd830;
 }
 
 /*fifth section*/
