@@ -9,11 +9,16 @@
   display: table;
   clear: both;
 }
+
 .margin {
   margin: 0 auto;
 }
+
 .padding {
   padding: 2%;
+}
+.paddingpx {
+  padding: 10px;
 }
 .paddingleft {
   padding-left: 2%;
@@ -25,26 +30,36 @@
 .fright {
   float: right;
 }
+
 .square-button {
-  padding: 2% 15%;
+  padding: 5px 20px;
   background-color: #0061ff;
   color: white;
 }
+
 .big-container {
   width: 90%;
 }
 .small-container {
   width: 70%;
 }
+
 /*Header*/
-.logo-bar,
-.nav-bar {
-  border: 1px solid black;
+
+header li,
+.logobar-leftnav {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-block;
 }
 
-.logobar-leftnav li,
-.navbar-rightnav li {
-  display: inline-block;
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header img {
+  vertical-align: middle;
 }
 
 /*Hero*/
@@ -187,7 +202,7 @@ h2 {
   height: 400px;
 }
 
-/*Sectios in fourth container*/
+/*Sections in fourth container*/
 .half1,
 .half3 {
   width: 30%;
