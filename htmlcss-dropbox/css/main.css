@@ -265,6 +265,7 @@ h5 {
 /*All logo colors*/
 .design {
   background-color: #a2d39b;
+  border: #d0e9cd solid 7px;
 }
 .arizona {
   background-color: #61082b;
@@ -297,8 +298,11 @@ h5 {
   background-color: #b4d0e7;
 }
 .fifth-section h2 {
-  font-size: 30px;
   color: #61082b;
+}
+
+.left-square {
+  width: 50%;
 }
 
 .fifth-container button {
@@ -313,6 +317,10 @@ h5 {
 .questions-container li {
   list-style-type: none;
   border-top: #eaeaeb solid 2px;
+}
+
+.questions-container li:nth-child(4) {
+  border-bottom: #eaeaeb solid 2px;
 }
 
 /*Footer*/
@@ -344,4 +352,9 @@ h5 {
   border-top: white solid 1px;
   padding-top: 2%;
   text-align: left;
+}
+
+.lang span {
+  transform: scale(0.5);
+  color: #999999;
 }
