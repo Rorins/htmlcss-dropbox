@@ -39,7 +39,7 @@
 }
 
 .square-button {
-  padding: 5px 0px;
+  padding: 10px 15px;
   background-color: #0061ff;
   color: white;
 }
@@ -50,10 +50,6 @@
 .small-container {
   width: 70%;
 }
-
-/*h2 {
-  padding: 2%;
-}*/
 
 /*Header*/
 
@@ -77,23 +73,24 @@ header li:hover {
   border-bottom: 1px solid green;
 }
 
+.hero-text i {
+  transform: scale(1.7);
+  padding-top: 5%;
+  padding-left: 5%;
+}
 /*Hero*/
 .hero {
   background-color: #b4d0e7;
-  border: 1px solid black;
 }
 .hero-container {
   background-color: #b4d0e7;
-  border: 1px solid black;
 }
 .hero-text {
   background-color: #b4d0e7;
-  border: 1px solid black;
   width: 30%;
 }
 .hero-image {
   background-color: #b4d0e7;
-  border: 1px solid black;
   width: 70%;
 }
 .hero-image img {
@@ -143,6 +140,9 @@ h5 {
   border-bottom: 1px solid rgb(219, 219, 219);
   font-weight: lighter;
 }
+.column-container ul:nth-child(3) i {
+  color: #1a71ff;
+}
 
 /*First bottom container*/
 
@@ -187,6 +187,7 @@ h5 {
 .partner-button {
   background-color: white;
   padding: 8px 20px;
+  border: 1px solid black;
 }
 
 /*third section*/
@@ -309,9 +310,12 @@ h5 {
   width: 50%;
 }
 
+.right-square {
+  width: 200px;
+}
 .fifth-container button {
   background-color: white;
-  padding: 2%;
+  padding: 5% 10%;
 }
 
 /*sixth-section*/
