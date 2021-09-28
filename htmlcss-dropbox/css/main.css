@@ -10,6 +10,9 @@
   clear: both;
 }
 
+.hyperlink {
+  color: #3e87ff;
+}
 .margin {
   margin: 0 auto;
 }
@@ -54,7 +57,8 @@
 /*Header*/
 
 header li,
-.logobar-leftnav {
+.logobar-leftnav,
+header button {
   padding-right: 15px;
   padding-left: 15px;
   display: inline-block;
@@ -78,6 +82,7 @@ header li:hover {
   padding-top: 5%;
   padding-left: 5%;
 }
+
 /*Hero*/
 .hero {
   background-color: #b4d0e7;
@@ -144,6 +149,9 @@ h5 {
   color: #1a71ff;
 }
 
+.second-half i {
+  color: #1a71ff;
+}
 /*First bottom container*/
 
 .block-big {
@@ -187,7 +195,7 @@ h5 {
 .partner-button {
   background-color: white;
   padding: 8px 20px;
-  border: 1px solid black;
+  border-color: black;
 }
 
 /*third section*/
