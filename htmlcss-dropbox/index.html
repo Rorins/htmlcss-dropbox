@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dropbox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -48,6 +56,7 @@
           </p>
           <button class="square-button">Inizia la tua prova gratuita</button>
           <div class="padding">Annulla in qualsiasi momento</div>
+          <i class="fas fa-arrow-down"></i>
         </div>
         <!--Container image-->
         <div class="hero-image fright">
@@ -62,7 +71,9 @@
       <!--First section container-->
       <div class="first-container small-container margin padding">
         <!--Checkboxes-->
-        <h2>Trova il piano Dropbox business che fa per te</h2>
+        <h2 class="big-title padding">
+          Trova il piano Dropbox business che fa per te
+        </h2>
         <div class="checkboxes">
           <input type="checkbox" name="" id="mensile" />
           <label for="mensile">Fatturazione mensile</label>
@@ -76,12 +87,20 @@
           <div class="col1 fleft">
             <h4 class="business-type">Singolo</h4>
             <ul>
-              <h3>Professional</h3>
+              <h3 class="medium-title">Professional</h3>
               <h4>19,99€</h4>
               <h5>/mese</h5>
-              <li>1 Utente</li>
-              <li>3 Tb di spazio di archiviazione sicuro</li>
               <li>
+                <i class="fa-solid fa-user-large"></i>
+
+                1 Utente
+              </li>
+              <li>
+                <i class="fa-solid fa-folder"></i>
+                3 Tb di spazio di archiviazione sicuro
+              </li>
+              <li>
+                <i class="fa-solid fa-pen"></i>
                 Funzioni di produttività premium e condivisione file semplice e
                 sicura
               </li>
@@ -107,15 +126,18 @@
           <div class="col2 fleft">
             <h4 class="business-type">Team</h4>
             <ul>
-              <h3>Standard</h3>
+              <h3 class="medium-title">Standard</h3>
               <h4>19,99€</h4>
               <h5>/mese</h5>
 
-              <li>1 Utente</li>
-              <li>3 Tb di spazio di archiviazione sicuro</li>
+              <li><i class="fa-solid fa-user-plus"></i> 1 Utente</li>
               <li>
-                Funzioni di produttività premium e condivisione file semplice e
-                sicura
+                <i class="fa-solid fa-folder"></i>3 Tb di spazio di
+                archiviazione sicuro
+              </li>
+              <li>
+                <i class="fa-solid fa-face-smile"></i>Funzioni di produttività
+                premium e condivisione file semplice e sicura
               </li>
               <li>
                 <button class="square-button">
@@ -140,14 +162,17 @@
           <div class="col3 fright">
             <h4 class="business-type">Team</h4>
             <ul>
-              <h3>Advanced</h3>
+              <h3 class="medium-title">Advanced</h3>
               <h4>19,99€</h4>
               <h5>/mese</h5>
-              <li>1 Utente</li>
-              <li>3 Tb di spazio di archiviazione sicuro</li>
+              <li><i class="fa-solid fa-user-plus"></i>1 Utente</li>
               <li>
-                Funzioni di produttività premium e condivisione file semplice e
-                sicura
+                <i class="fa-solid fa-face-smile"></i>3 Tb di spazio di
+                archiviazione sicuro
+              </li>
+              <li>
+                <i class="fa-solid fa-pen"></i>Funzioni di produttività premium
+                e condivisione file semplice e sicura
               </li>
             </ul>
             <li>
@@ -175,7 +200,7 @@
         <div class="block-big clearfix">
           <h4 class="business-type">Team</h4>
           <div class="box1 fleft">
-            <h3>Enterprise</h3>
+            <h3 class="medium-title">Enterprise</h3>
             <h5>Contatta l'ufficio vendite per i prezzi</h5>
             <p>
               Soluzioni personalizzate e supporto su misura per aiutare i
@@ -196,7 +221,7 @@
           <img src="./img/partner.png" alt="" />
         </div>
         <div class="box4 fright">
-          <h3>Entra in contatto con un partner Dropbox</h3>
+          <h3 class="medium-title">Entra in contatto con un partner Dropbox</h3>
           <p>
             Trova un partner Dropbox e HelloSign di fiducia. Ottieni le
             soluzioni e i servizi necessari per raggiungere i tuoi obiettivi
@@ -211,10 +236,10 @@
     <!--Third section-->
     <section class="third-section">
       <div class="third-container padding margin small-container clearfix">
-        <h2>Esegui più operazioni con Dropout Business</h2>
+        <h2 class="big-title">Esegui più operazioni con Dropout Business</h2>
         <div class="fleft">
           <img src="./img/business-feature-switching-tools.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -224,7 +249,7 @@
         </div>
         <div class="boxy1 fleft">
           <img src="./img/business-feature-coordinate-it.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -234,7 +259,7 @@
         </div>
         <div class="fright">
           <img src="./img/business-feature-multi-device.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -244,7 +269,7 @@
         </div>
         <div class="fleft">
           <img src="./img/business-feature-integrations-it.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -254,7 +279,7 @@
         </div>
         <div class="boxy2 fleft">
           <img src="./img/business-feature-send-files-it.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -264,7 +289,7 @@
         </div>
         <div class="fright">
           <img src="./img/business-feature-security.png" alt="" />
-          <h3>Passa di meno da uno strumento all'altro</h3>
+          <h3 class="medium-title">Passa di meno da uno strumento all'altro</h3>
           <p>
             Porta a termine le attività quotidiane con un solo strumento.Crea,
             modifica e condividi contenuti cloud da Documenti, Fogli e
@@ -278,8 +303,10 @@
     <!--Fourth section-->
     <section class="fourth-section">
       <div class="full-container">
-        <div class="top-fourth-section">
-          <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+        <div class="top-fourth-section padding">
+          <h2 class="big-title">
+            Più di 500.000 team utilizzano Dropbox Business
+          </h2>
           <a href="">Scopri di più sui nostri clienti</a>
         </div>
 
@@ -305,15 +332,15 @@
 
           <!--Half 2-->
           <div class="half2 fleft">
+            <img src="./img/designit.svg" alt="" />
             <p>
-              <img src="./img/designit.svg" alt="" />
               "I membri del nostro team lavorano costantemente in Paesi, fusi
               orari e uffici diversi. Ora molte soluzioni sono combatibili con
               queste esigenze, ma nessuna è facile quando Dropbox e Dropbox
               Paper.Ora molte soluzioni sono combatibili con queste esigenze, ma
-              nessuna è facile quando Dropbox e Dropbox Paper."" Morten Thomsen,
-              Global IT Lead
+              nessuna è facile quando Dropbox e Dropbox Paper."
             </p>
+            <p>Morten Thomsen, Global IT Lead</p>
           </div>
           <!--Half 3-->
           <div class="half3 fright">
@@ -339,7 +366,7 @@
     <section class="fifth-section">
       <div class="fifth-container padding margin small-container clearfix">
         <div class="fleft">
-          <h2>Porta Dropbox Business nella tua azienda.</h2>
+          <h2 class="big-title">Porta Dropbox Business nella tua azienda.</h2>
         </div>
         <div class="fright">
           <button>Inizia la tua prova gratuita</button>
@@ -350,7 +377,7 @@
     <!--Sixth section-->
     <section class="sixth-section">
       <div class="questions-container padding margin small-container">
-        <h2>Domande frequenti</h2>
+        <h2 class="medium-title">Domande frequenti</h2>
         <ul>
           <li>
             Qual'è la differenza tra Dropbox Business Standard e Dropbox
@@ -427,8 +454,8 @@
             <li><a href="">Piani</a></li>
           </ul>
         </div>
-        <div>ICON</div>
       </div>
+      <div class="lang"><span>italiano</span></div>
     </footer>
   </body>
 </html>

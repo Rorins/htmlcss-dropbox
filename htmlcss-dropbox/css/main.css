@@ -14,6 +14,13 @@
   margin: 0 auto;
 }
 
+.big-title {
+  font-size: 40px;
+}
+.medium-title {
+  font-size: 30px;
+}
+
 .padding {
   padding: 2%;
 }
@@ -108,15 +115,6 @@ h1 {
 .checkboxes {
   border-radius: 50%;
   padding: 2%;
-}
-
-.first-container h2 {
-  padding: 2%;
-  font-size: 40px;
-}
-
-.column-container h3 {
-  font-size: 30px;
 }
 
 h5 {
@@ -219,10 +217,6 @@ h5 {
   padding-top: 2%;
 }
 
-.top-fourth-section {
-  padding: 2%;
-}
-
 .logo-container {
   height: 400px;
 }
@@ -236,6 +230,8 @@ h5 {
 .half2 {
   width: 40%;
   height: 100%;
+  padding: 3%;
+  background-color: #f5f5f5;
 }
 
 .half1 div,
@@ -258,10 +254,14 @@ h5 {
   filter: invert(2);
 }
 
+.half2 img {
+  width: 40%;
+  height: 40%;
+}
+
 .half2 p {
   padding: 2%;
 }
-
 /*All logo colors*/
 .design {
   background-color: #a2d39b;
@@ -307,24 +307,21 @@ h5 {
 }
 
 /*sixth-section*/
-.sixth-section {
-  border: 1px solid black;
-}
-.questions-container {
-  border: 1px solid black;
+.questions-container * {
+  padding: 3%;
 }
 .questions-container li {
   list-style-type: none;
-  padding: 2%;
+  border-top: #eaeaeb solid 2px;
 }
 
 /*Footer*/
 .footer-container,
 .footer-section {
   background-color: #000000;
+  color: white;
 }
 .rectangle {
-  color: white;
   width: 200px;
   margin: 1%;
 }
@@ -337,4 +334,14 @@ h5 {
   color: white;
   padding: 2%;
   text-decoration: none;
+}
+
+.lang {
+  margin-left: 8%;
+  margin-top: 5%;
+  width: 100px;
+  height: 100px;
+  border-top: white solid 1px;
+  padding-top: 2%;
+  text-align: left;
 }
