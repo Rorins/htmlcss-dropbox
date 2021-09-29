@@ -197,6 +197,9 @@ h5 {
   padding: 8px 20px;
   border-color: black;
 }
+.box4 * {
+  padding: 4% 2%;
+}
 
 /*third section*/
 
@@ -233,7 +236,9 @@ h5 {
 .logo-container {
   height: 400px;
 }
-
+.top-part * {
+  padding: 4% 2%;
+}
 /*Sections in fourth container*/
 .half1,
 .half3 {
